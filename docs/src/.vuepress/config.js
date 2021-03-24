@@ -10,6 +10,10 @@ module.exports = {
    */
   description: 'ステキャン開発の全てがここに！',
 
+  base: "",
+  
+  dest: "dist/",
+
   /**
    * Extra tags to be injected to the page HTML `<head>`
    *
@@ -42,5 +46,5 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
-  ]
+  ],
 }
