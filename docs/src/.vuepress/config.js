@@ -11,7 +11,6 @@ module.exports = {
   description: 'ステキャン開発の全てがここに！',
 
   base: "",
-  
   dest: "dist/",
 
   /**
